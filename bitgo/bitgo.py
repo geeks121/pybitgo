@@ -49,8 +49,8 @@ from pycoin import encoding
 
 ScriptMultisig._dummy_signature = lambda x, y: "\x00"
 
-PRODUCTION_URL = "https://www.bitgo.com/api/v1"
-TEST_URL = "https://test.bitgo.com/api/v1"
+PRODUCTION_URL = "https://www.bitgo.com/api/v2"
+TEST_URL = "https://test.bitgo.com/api/v2"
 
 def solve(self, **kwargs):
     """
